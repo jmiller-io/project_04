@@ -4,7 +4,7 @@ var FishSchema = require('./fish.js');
 var UserSchema = new mongoose.Schema({
   name: String,
   avatar: String,
-  fish: [FishSchema]
+  catch: [FishSchema]
 })
 
 var User = mongoose.model('User', UserSchema);
