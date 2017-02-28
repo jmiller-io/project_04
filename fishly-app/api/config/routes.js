@@ -1,6 +1,7 @@
-var express = require('express');
-var bodyParser = require('body-parser');
-var router = express.Router();
+var express = require('express'),
+    router = express.Router(),
+    bodyParser = require('body-parser')
 
+var fishlyController = require('../controllers/fishly.js');
 
 module.exports = router;

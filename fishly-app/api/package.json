@@ -10,10 +10,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "angular-google-auth2": "^1.0.8",
     "body-parser": "^1.16.1",
     "express": "^4.14.1",
     "mongoose": "^4.8.5",
     "morgan": "^1.8.1",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "serve-favicon": "^2.4.0"
   }
 }
