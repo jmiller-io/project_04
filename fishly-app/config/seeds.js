@@ -1,5 +1,5 @@
 var mongoose = require('./database');
-var User = require('../models/user.js');
+var User = require('../models/userProfile.js');
 var Lake = require('../models/lake.js');
 
 var users = [

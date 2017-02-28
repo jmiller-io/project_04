@@ -1,0 +1,21 @@
+<section>
+  <form action="/addCatch" method="post" enctype="multipart/form-data">
+    <div class="input">
+        <label for="img">Image:</label>
+        <input type="file" name="myimg" required>
+      </div>
+      <div class="input">
+        <!-- <label for="location">Lake Caught On</label> -->
+        <input type="text" placeholder="Lake Caught On?" id="lake" name="lake" required>
+      </div>
+      <div class="input">
+       <!--  <label for="species">Species</label> -->
+        <input type="text" id="species" name="species" placeholder="Type of Fish?">
+      </div>
+      <div class="input">
+        <!-- <label for="date">Date Caught On</label> -->
+        <input type="text" placeholder="When caught?" id="date" name="date">
+      </div>
+      <button type="submit" name="action">Submit</button>
+  </form>
+</section>

@@ -1,4 +1,11 @@
-var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/fishly-app');
+const mongoose = require('mongoose');
+mongoose.Promise = Promise
+const url = process.env.MONGODB_URI || 'mongodb://localhost:27017/fishly-app';
 
-module.exports = mongoose;
+
+mongoose.connect(url)
+mongoose.connection.once('open', function () {
+  console.log(`Mongoose connected to: ${url}`)
+})
+
+module.exports = mongoose
