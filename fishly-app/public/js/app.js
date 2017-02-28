@@ -6,9 +6,9 @@
     MainRouter.$inject = ['$stateProvider', '$urlRouterProvider'];
     function MainRouter($stateProvider, $urlRouterProvider) {
       $stateProvider
-        .state('index', {
+        .state('home', {
           url: '/',
-          templateUrl: 'index.html'
+          templateUrl: 'home.html'
         })
         .state('about', {
           url: '/about',

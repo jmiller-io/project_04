@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "node ./server.js",
+    "start": "node ./app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "seed": "node ./api/config/seeds.js"
   },
@@ -12,6 +12,7 @@
   "dependencies": {
     "angular-google-auth2": "^1.0.8",
     "body-parser": "^1.16.1",
+    "cors": "^2.8.1",
     "express": "^4.14.1",
     "mongoose": "^4.8.5",
     "morgan": "^1.8.1",
