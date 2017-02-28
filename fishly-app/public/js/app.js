@@ -1,6 +1,6 @@
 (function() {
   'use strict';
-  angular.module('Fishly', ['ui.router'])
+  angular.module('Fishly', ['ui.router', 'satellizer'])
     .config(MainRouter);
 
     MainRouter.$inject = ['$stateProvider', '$urlRouterProvider'];
@@ -16,4 +16,7 @@
         })
         $urlRouterProvider.otherwise('/');
     }
+
+
+
 }());
